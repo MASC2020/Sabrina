@@ -39,17 +39,17 @@ def user_respons(reponse)
     puts "#{audenumber.count}"
    
     elsif reponse == 4
-    puts " Il y a    handle qui commencent par une majuscule"
+    puts " Le nombre de handles qui commencent par une majuscule est:"
     premiereLettre = $list.grep(/[@]{1}[A-Z]{1}/)
     puts "#{premiereLettre.count}"
    
     elsif reponse == 5
-    puts " Il y a   handles qui contiennent une majuscule"
+    puts " Le nombre de handles qui contiennent une majuscule est:"
     unemajuscule = $list.grep(/[A-Z]{1}/)
     puts "#{unemajuscule.count}"
    
     elsif reponse == 6
-    puts " Il y a    underscore en tout"
+    puts " Le nombre total d'underscore est:"
     underscore = $list.grep(/[_]{1}/)
     puts "#{underscore.count}"
    
